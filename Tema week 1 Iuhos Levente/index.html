@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My personal blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="box">
+          <div class="container">
+            <h1>My blog</h1>
+            <p><img src="image.png" alt="Portrait" width="100" height="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color:red">Dolore hic at vitae a consequatur provident</span>, illum repellat cupiditate doloribus, minus incidunt quis voluptatibus veniam eum, deleniti modi debitis distinctio qui!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat excepturi perspiciatis magnam maxime deserunt soluta voluptatum minus rem, nulla itaque quisquam optio nisi? Iusto quibusdam repudiandae a. Magnam, voluptatum.</p>
+          </div>
+        <div class="blogRoll">
+            <h2>Some of my favourite bloggers:</h2>
+            <ul>
+            <li><a href="https://www.garyvaynerchuk.com/">Gary Vaynerchuk</a></li>
+            <br>
+            <li><a href="https://moz.com/">Rand Fiskin</a></li>
+            <br>
+            <li><a href="https://www.thedishdaily.com/">Andrew Sullivan</a></li>
+        </div>
+        <div class="form">  
+          <h3>Contact</h3>
+          <form>
+            <fieldset>
+                <legend>Personal details</legend>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" />
+                <br>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" />
+                <br>
+                Gender: 
+                <input name="gender" type="radio" id="gm" value="m" />
+                <label for="gm">Male</label>
+                <input name="gender" type="radio" id="gf" value="f" />
+                <label for="gf">Female</label>
+                <br>
+                <label for="city">City</label>
+                <select name="city" id="city">
+                <option value="cj">Cluj-Napoca</option>
+                <option value="b">Bucuresti</option>
+                <option value="tm" selected="selected">Timisoara</option>
+                </select>
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+                <p>
+                <textarea name="terms" cols="40" rows="5"
+                readonly="readonly">TERMS AND CONDITIONS...</textarea>
+                </p>
+                <p>
+                <input type="submit" name="submit" value="Send Form" />
+                <input type="reset" value="Clear Form" />
+                </p>
+            </fieldset>
+          </form>
+        </div>
+          
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+.box {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.pngmart.com/files/22/Gray-Background-PNG-Isolated-Image.png');
+    background-size: cover;
+    font-size: larger;
+    padding: 2%;
+}
