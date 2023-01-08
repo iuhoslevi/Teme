@@ -1,0 +1,25 @@
+.btn-primary {
+  width: 190px;
+  border-radius: 0%;
+  height: 60px;
+  background-color: rgb(0, 140, 255);
+  font-size: x-large;
+  color: white;
+}
+
+.firstP {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 20%;
+  border-right: 2px solid black;
+}
+
+.secondP {
+  font-size: large;
+  margin-top: 25%;
+}
+
+.thirdP {
+  font-size: large;
+  margin-top: 25%;
+}

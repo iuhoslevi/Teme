@@ -1,0 +1,82 @@
+#posts-container {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.post-title {
+  text-transform: capitalize;
+}
+
+.post-title h2 {
+  border-bottom: 1px solid black;
+}
+
+#updatePostModal {
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+#updatePostModal .modalWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#updatePostModal input,
+#updatePostModal textarea {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#updatePostModal .buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+#updatePostModal {
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: none;
+} */
+
+#updatePostModal .modalWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modalHidden {
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: none;
+}
+
+.modalDisplayed {
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}

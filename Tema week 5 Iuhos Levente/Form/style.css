@@ -30,7 +30,7 @@ header {
 
 .form {
   height: 220px;
-  width: 500px;
+  width: 600px;
   background-color: #f2f2f2;
   border-radius: 5px;
   padding: 20px;
@@ -62,8 +62,10 @@ button {
   padding: 5px;
   border-radius: 3px;
   position: relative;
-  top: 25px;
-  left: 450px;
+  top: 10px;
+  left: 180px;
+  width: 100px;
+  cursor: pointer;
 }
 
 footer {

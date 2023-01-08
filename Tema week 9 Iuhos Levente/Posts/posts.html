@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week 7</title>
+    <script src="./posts.js" defer></script>
+    <link rel="stylesheet" href="./posts.css" />
+  </head>
+  <body>
+    <div id="updatePostModal" class="modalHidden">
+      <div class="modalWrapper">
+        <input type="text" id="title" />
+        <textarea id="body" cols="30" rows="10"></textarea>
+        <div class="buttonWrapper">
+          <button id="updatePost">Update</button>
+          <button id="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <button id="temperature-button">Get Temperature</button>
+    <div id="temperature-container" style="display: none">
+      Temperatura in orasul Cluj-Napoca este: <span id="temperature"></span> C
+    </div>
+    <div id="posts-container"></div>
+    <div id="update-modal" style="display: none">HTML</div>
+  </body>
+</html>
