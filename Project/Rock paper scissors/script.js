@@ -1,6 +1,8 @@
+const choices = ["Rock", "Paper", "Scissors"];
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
+const computerChoiceElem = document.getElementById("computer-choice");
 const result = document.getElementById("result");
 
 rockButton.addEventListener("click", function () {
@@ -20,12 +22,14 @@ function playGame(userChoice) {
   const userWin1 = userChoice === "Rock" && computerChoice === "Scissors";
   const userWin2 = userChoice === "Paper" && computerChoice === "Rock";
   const userWin3 = userChoice === "Scissors" && computerChoice === "Paper";
-}
 
-if (userWin1 || userWin2 || userWin3) {
-  result.innerHTML = "User wins!";
-} else if (userChoice === computerChoice) {
-  result.innerHTML = "It's a draw!";
-} else {
-  result.innerHTML = "Computer wins!";
+  computerChoiceElem.innerHTML = `Computer Choice: ${computerChoice}`;
+
+  if (userWin1 || userWin2 || userWin3) {
+    result.innerHTML = "User wins!";
+  } else if (userChoice === computerChoice) {
+    result.innerHTML = "It's a draw!";
+  } else {
+    result.innerHTML = "Computer wins!";
+  }
 }
